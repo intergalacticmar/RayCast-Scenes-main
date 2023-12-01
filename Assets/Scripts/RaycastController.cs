@@ -16,14 +16,25 @@ public class RaycastController : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    OpenScene1();
+                    if (hit.collider.gameObject.CompareTag("Cube1"))
+                    {
+                        OpenScene("Scene1");
+                    }
+                    else if (hit.collider.gameObject.CompareTag("Sphere"))
+                    {
+                        OpenScene("Scene2");
+                    }
+                    else if (hit.collider.gameObject.CompareTag("Cube2"))
+                    {
+                        OpenScene("Scene3");
+                    }
                 }
             }
         }
     }
 
-    void OpenScene1()
+    void OpenScene(string Scene1)
     {
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene(Scene1);
     }
 }

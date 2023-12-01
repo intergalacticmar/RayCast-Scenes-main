@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 437837518}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Sphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 437837512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a1c7a5923f77924882b10f53819f97b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2de58f09f9a05de498e853c92e339173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   raycastDistance: 10
@@ -647,9 +647,10 @@ GameObject:
   - component: {fileID: 810289034}
   - component: {fileID: 810289033}
   - component: {fileID: 810289038}
+  - component: {fileID: 810289039}
   m_Layer: 0
   m_Name: Cube2
-  m_TagString: Untagged
+  m_TagString: Cube2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -764,6 +765,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5c11fda66d3bb44a22b94115b15170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &810289039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810289032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de58f09f9a05de498e853c92e339173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastDistance: 10
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +887,7 @@ GameObject:
   - component: {fileID: 1789875288}
   m_Layer: 0
   m_Name: Cube1
-  m_TagString: Untagged
+  m_TagString: Cube1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
