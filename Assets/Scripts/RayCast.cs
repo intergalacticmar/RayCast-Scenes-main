@@ -15,7 +15,7 @@ public class RayCast : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
 
-                Debug.Log("Objeto impactado: " + hit.collider.gameObject.name);
+                Debug.Log("Objeto seleccionado: " + hit.collider.gameObject.name);
             }
         }
     }
